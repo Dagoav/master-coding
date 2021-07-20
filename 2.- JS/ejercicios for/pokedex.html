@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PoKedex</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    ol li {
+        padding: 5px;
+        margin-left: 20px;
+        color: whitesmoke;
+        font-size: 12px;
+    }
+
+    ul li,
+    p {
+        list-style: none;
+        padding: 5px;
+        margin-left: 20px;
+        color: rgb(0, 0, 0);
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+
+    .all {
+        width: 50%;
+        padding: 20px;
+        font-size: 12px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background: brown;
+    }
+
+    .play {
+        width: 50%;
+        background-color: cadetblue;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="all">
+            <ol id="unOrderList"></ol>
+        </div>
+        <div class="play">
+            <p>Pokemons seleccionados</p>
+            <ul id="multiplos"></ul>
+        </div>
+    </div>
+
+    <script src="pokedex.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

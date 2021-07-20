@@ -1,0 +1,33 @@
+body {
+    margin: 130px;
+    padding: 130px;
+}
+
+.parent {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 550px;
+    height: 550px;
+    border: 3px dashed rgb(133, 124, 124);
+    /* border-radius: 12px; */
+}
+
+.child {
+    width: 10%;
+    height: 35px;
+    border-color: gray;
+    border-style: groove;
+    color: whitesmoke;
+    background-color: coral;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.child:nth-of-type(14) {
+    order: -1;
+}
+
+.child:nth-of-type(1) {
+    order: 1;
+}

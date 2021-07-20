@@ -1,0 +1,74 @@
+#destiny article h3 {
+  color: lightseagreen;
+}
+
+.destiny_section {
+  width: 90%;
+  margin: auto;
+}
+.destiny_section h2 {
+  text-decoration: underline;
+}
+.destiny_section article {
+  clear: both;
+}
+.destiny_section article h3 {
+  float: left;
+  /* background-color: green; */
+}
+.destiny_section article img {
+  float: right;
+  margin: 5px 0px;
+}
+.destiny_section article span {
+  color: black;
+  font-size: 14px;
+  font-style: italic;
+  /* background-color: greenyellow; */
+}
+
+.itinerary_section {
+  padding-top: 200px;
+}
+.bottom ul {
+  list-style-type: none;
+}
+
+.bottom ul li a {
+  color: black;
+  font-size: 25px;
+}
+.bottom ul li a:hover {
+  color: rgb(248, 116, 8);
+  text-decoration: underline;
+}
+.bottom {
+  margin: 50px;
+  /* background-color: blue; */
+}
+.destiny-img {
+  position: relative;
+  max-width: 844px;
+  margin: auto;
+}
+
+.oferton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: red;
+  padding: 20px;
+  color: white;
+}
+
+.fa-whatsapp {
+  right: 130px;
+  bottom: 40px;
+  position: fixed;
+  transition: all 700ms;
+  z-index: 10;
+}
+.fa-whatsapp:hover {
+  color: #075e54;
+  transition: color 700ms;
+}

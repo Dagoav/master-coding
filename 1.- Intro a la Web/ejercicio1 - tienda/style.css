@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html,
+body {
+  background: url("https://png.pngtree.com/thumb_back/fw800/background/20191010/pngtree-hand-draw-funny-doodle-art-for-back-to-school-texture-background-image_319042.jpg")
+    fixed;
+}
+main {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+img {
+  margin: auto 100px;
+}
+
+#productos {
+  text-align: center;
+}
+
+#productos p {
+  text-align: justify;
+}
+em {
+  text-align: justify;
+}
+.products h3 {
+  text-decoration: underline;
+  font-size: 50px;
+  margin: 10px;
+}
